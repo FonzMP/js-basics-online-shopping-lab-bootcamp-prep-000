@@ -81,6 +81,7 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
   const creditCardNumber = cardNumber;
+  const totalPrice = total();
   if (!creditCardNumber) {
     return "Sorry, we don't have a credit card on file for you."
   } else {
