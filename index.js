@@ -35,9 +35,9 @@ function viewCart() {
       sampleString += " at $";
       sampleString += cart[i].itemPrice;
       if (parseInt(i + 1) === cart.length) {
-        sampleString += ". "
+        sampleString += ".";
       } else {
-        sampleString += ", "
+        sampleString += ", ";
       }
     }
   }
