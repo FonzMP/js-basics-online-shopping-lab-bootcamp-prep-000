@@ -73,7 +73,7 @@ function removeFromCart(item) {
       console.log(removed);
     }
   }
-  return message;
+  return cart;
 }
 
 function placeOrder(cardNumber) {
