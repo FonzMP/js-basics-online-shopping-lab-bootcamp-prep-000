@@ -16,7 +16,9 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- cart.push(item);
+ const itemName = item;
+ const itemPrice = getRandomInt();
+ Object.assign({}, cart, {itemName: itemPrice});
 }
 
 function viewCart() {
