@@ -16,8 +16,8 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- keyVar = item;
- price = getRandomInt();
+ let keyVar = item;
+ let price = getRandomInt();
  cart[keyVar] = price;
  return `${keyVar} has been added to your cart.`;
 }
