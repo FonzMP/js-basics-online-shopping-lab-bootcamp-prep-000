@@ -67,9 +67,8 @@ function removeFromCart(item) {
   // write your code here
   let message = "";
   for (let i = 0; i < cart.length; i++) {
-    let currentItem = cart[i];
+    let currentItem = cart[i].itemName;
     let secondary = parseInt(i + 1)
-    console.log(currentItem.itemName);
     if (currentItem.itemName === item) {
       let removed = cart.splice(i, i);
       return cart;
