@@ -6,7 +6,7 @@ function getRandomInt() {
 }
 
 function getCart(item) {
-  cart.push(item)
+  keyVar = item;
   price = getRandomInt();
   return cart;
 }
