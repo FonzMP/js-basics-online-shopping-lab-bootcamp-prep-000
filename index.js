@@ -20,7 +20,7 @@ function addToCart(item) {
  const itemPriceIndiv = getRandomInt();
  const newItem = Object.assign({itemName: itemNameIndiv, itemPrice: itemPriceIndiv});
  cart.push(newItem);
- return cart;
+ return `${cart.itemName} has been added to your cart.`;
 }
 
 function viewCart() {
