@@ -67,7 +67,7 @@ function removeFromCart(item) {
   // write your code here
   let message = "";
   for (let i = 0; i < cart.length; i++) {
-    console.log(cart[i].itemName);
+    console.log(cart[i]);
   }
   return message;
 }
