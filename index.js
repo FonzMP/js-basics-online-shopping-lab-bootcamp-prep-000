@@ -19,7 +19,7 @@ function addToCart(item) {
  let keyVar = item;
  let price = getRandomInt();
  cart[keyVar] = price;
- return `${item} has been added to your cart.`;
+ return `${keyVar} has been added to your cart.`;
 }
 
 function viewCart() {
