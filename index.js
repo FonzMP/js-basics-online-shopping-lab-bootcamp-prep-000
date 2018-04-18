@@ -69,7 +69,7 @@ function removeFromCart(item) {
   for (let i = 0; i < cart.length; i++) {
     let currentItem = cart[i];
     let secondary = parseInt(cart[i] + 1);
-    console.log('secondary');
+    console.log(secondary);
     if (currentItem === item) {
       let removed = cart.splice(i, i);
       console.log(removed);
