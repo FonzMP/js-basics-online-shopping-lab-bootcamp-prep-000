@@ -66,10 +66,10 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   for (let i = 0; i < cart.length; i++) {
-    let currentItemName = cart[i].itemName.toLowerCase();
-    const itemLowered = item.toLowerCase();
+    let currentItemName = cart[i].itemName;
+    const itemLowered = item;
     console.log(currentItemName);
-    if (currentItemName === itemLowered) {
+    if (currentItemName === item) {
       delete cart[i];
     } else {
       return "Sorry, that item doesn't exist";
