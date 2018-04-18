@@ -67,6 +67,7 @@ function removeFromCart(item) {
   // write your code here
   for (let i = 0; i < cart.length; i++) {
     let currentItemName = cart[i].itemName;
+    console.log(currentItemName);
     if (currentItemName === item) {
       delete cart[i];
     }
