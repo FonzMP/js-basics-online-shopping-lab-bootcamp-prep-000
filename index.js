@@ -8,6 +8,7 @@ function getRandomInt() {
 function getCart(item) {
   keyVar = item;
   price = getRandomInt();
+  console.log(keyVar, price)
   return cart;
 }
 
