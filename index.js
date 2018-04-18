@@ -31,11 +31,13 @@ function viewCart() {
     return "Your shopping cart is empty.";
   } else {
     for (let i = 0; i < cart.length; i++) {
-      if (parseInt(i + 1) === cart.length) {
+      if (parseInt(i + 1) === cart.length || cart.length === 1) {
         sampleString += "and " + cart[i].itemName;
         sampleString += " at $";
         sampleString += cart[i].itemPrice;
         sampleString += ".";
+      } else if (cart.length === 1) {
+
       } else {
         sampleString += cart[i].itemName;
         sampleString += " at $";
