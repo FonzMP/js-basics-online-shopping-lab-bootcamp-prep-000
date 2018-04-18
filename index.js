@@ -31,6 +31,10 @@ function viewCart() {
     return "Your shopping cart is empty";
   } else {
     for (let i = 0; i < cart.length; i++) {
+      sampleString += cart[i].itemName;
+      sampleString += " at $";
+      sampleString += cart[i].itemPrice;
+      sampleString += ", ";
       console.log(cart[i].itemName);
     }
   }
