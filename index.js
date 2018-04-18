@@ -34,6 +34,7 @@ function viewCart() {
       console.log(cart.itemName);
     }
   }
+  return sampleString;
 }
 
 function total() {
