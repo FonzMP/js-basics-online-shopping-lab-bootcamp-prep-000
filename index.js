@@ -8,6 +8,7 @@ function getRandomInt(max) {
 var randomNumber = getRandomInt(100);
 
 function getCart(item) {
+  console.log(randomNumber);
  return cart;
 }
 
