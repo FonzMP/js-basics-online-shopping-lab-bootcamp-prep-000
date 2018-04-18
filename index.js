@@ -71,6 +71,7 @@ function removeFromCart(item) {
       delete cart[i];
     }
   }
+  return cart;
 }
 
 function placeOrder(cardNumber) {
