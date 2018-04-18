@@ -1,5 +1,5 @@
 var cart = [];
-Math.random();
+import random;
 
 function getCart(item) {
  return cart;
