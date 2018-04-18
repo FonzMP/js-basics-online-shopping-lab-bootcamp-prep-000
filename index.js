@@ -69,7 +69,8 @@ function removeFromCart(item) {
   for (let i = 0; i < cart.length; i++) {
     let currentItem = cart[i];
     if (currentItem === item) {
-      months.splice(i, 1, currentItem);
+      let removed = months.splice(i, 1, currentItem);
+      console.log(removed);
     }
   }
   return message;
