@@ -31,12 +31,15 @@ function viewCart() {
     return "Your shopping cart is empty.";
   } else {
     for (let i = 0; i < cart.length; i++) {
-      sampleString += cart[i].itemName;
-      sampleString += " at $";
-      sampleString += cart[i].itemPrice;
       if (parseInt(i + 1) === cart.length) {
+        sampleString += " and " + cart[i].itemName;
+        sampleString += " at $";
+        sampleString += cart[i].itemPrice;
         sampleString += ".";
       } else {
+        sampleString += cart[i].itemName;
+        sampleString += " at $";
+        sampleString += cart[i].itemPrice;
         sampleString += ", ";
       }
     }
