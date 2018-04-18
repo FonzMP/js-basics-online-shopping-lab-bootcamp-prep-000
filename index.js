@@ -71,6 +71,8 @@ function removeFromCart(item) {
     console.log(currentItemName);
     if (currentItemName === item) {
       delete cart[i];
+    } else {
+      continue
     }
   }
   return message;
