@@ -35,7 +35,8 @@ function viewCart() {
       sampleString += " at $";
       sampleString += cart[i].itemPrice;
       sampleString += ".";
-    } else {
+    }
+  } else {
     for (let i = 0; i < cart.length; i++) {
       if (parseInt(i + 1) === cart.length) {
         sampleString += "and " + cart[i].itemName;
