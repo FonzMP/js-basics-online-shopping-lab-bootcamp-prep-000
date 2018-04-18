@@ -1,14 +1,12 @@
 var cart = [];
 
 
-function getRandomInt()) {
+function getRandomInt() {
   return Math.floor(Math.random() * Math.floor(100));
 }
 
-var randomNumber = getRandomInt(100);
-
 function getCart(item) {
-  console.log(randomNumber);
+  console.log(getRandomInt());
   return cart;
 }
 
