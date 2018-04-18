@@ -72,10 +72,10 @@ function removeFromCart(item) {
       let removed = cart.splice(i, 1);
       return cart;
     } else {
-      message = "That item is not in your cart.";
+      continue
     }
   }
-  return message;
+  return "That item is not in your cart.";
 }
 
 function placeOrder(cardNumber) {
