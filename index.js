@@ -70,6 +70,8 @@ function removeFromCart(item) {
     console.log(currentItemName);
     if (currentItemName === item) {
       delete cart[i];
+    } else {
+      return 'Sorry, that item doesn't exist";
     }
   }
   return cart;
