@@ -71,8 +71,6 @@ function removeFromCart(item) {
     console.log(currentItemName);
     if (currentItemName === item) {
       delete cart[i];
-    } else {
-      message = "Sorry, that item doesn't exist";
     }
   }
   return message;
