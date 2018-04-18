@@ -18,7 +18,7 @@ function addToCart(item) {
  // write your code here
 
  const price = getRandomInt();
- const itemAddition = Object.assign(cart, {itemName: [item], itemPrice: price});
+ const itemAddition = Object.assign(cart, {itemName: item, itemPrice: price});
  return cart;
 }
 
