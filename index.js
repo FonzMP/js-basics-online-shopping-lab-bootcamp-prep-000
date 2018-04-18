@@ -18,12 +18,8 @@ function addToCart(item) {
  // write your code here
 
  const price = getRandomInt();
- const itemForCart = item;
- cart.push(itemForCart);
-
- // const price = getRandomInt();
- // const itemAddition = Object.assign(cart, {[item]: price});
- // return cart;
+ const itemAddition = Object.assign({ itemName: name of the item, itemPrice: price of the item, }, cart, {[item]: price});
+ return cart;
 }
 
 function viewCart() {
