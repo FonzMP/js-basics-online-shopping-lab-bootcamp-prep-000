@@ -74,7 +74,6 @@ function removeFromCart(item) {
       return cart;
     } else {
       message = "That item is not in your cart.";
-      continue
     }
   }
   return message;
