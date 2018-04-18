@@ -65,6 +65,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+  let message = "";
   for (let i = 0; i < cart.length; i++) {
     let currentItemName = cart[i].itemName;
     console.log(currentItemName);
