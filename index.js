@@ -69,7 +69,7 @@ function removeFromCart(item) {
     let currentItemName = cart[i].itemName.toLowerCase();
     const itemLowered = item.toLowerCase();
     console.log(currentItemName);
-    if (currentItemName === item) {
+    if (currentItemName === itemLowered) {
       delete cart[i];
     } else {
       return "Sorry, that item doesn't exist";
