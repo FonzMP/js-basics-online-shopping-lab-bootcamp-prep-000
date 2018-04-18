@@ -25,8 +25,14 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+  let sampleString = "";
+  sampleString += "In your cart, you have ";
   if (cart.length === 0) {
     return "Your shopping cart is empty";
+  } else {
+    for (let i = 0; i < cart.length; i++) {
+      console.log(cart.itemName);
+    }
   }
 }
 
