@@ -5,11 +5,8 @@ function getRandomInt() {
   return Math.floor(Math.random() * Math.floor(100));
 }
 
-function getCart(item) {
-  keyVar = item;
-  price = getRandomInt();
-  cart[keyVar] = price;
-  return `${keyVar} has been added to your cart.`;
+function getCart() {
+  return cart;
 }
 
 function setCart(c) {
@@ -19,6 +16,10 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+ keyVar = item;
+ price = getRandomInt();
+ cart[keyVar] = price;
+ return `${keyVar} has been added to your cart.`;
 }
 
 function viewCart() {
