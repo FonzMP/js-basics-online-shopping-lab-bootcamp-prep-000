@@ -1,7 +1,11 @@
 var cart = [];
-var randomNumber = function getRandomInt(max) {
+
+
+function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
+
+var randomNumber = getRandomInt(100);
 
 function getCart(item) {
  return cart;
