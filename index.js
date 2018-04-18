@@ -71,6 +71,7 @@ function removeFromCart(item) {
     let secondary = parseInt(i + 1)
     if (currentItem === item) {
       let removed = cart.splice(i, i);
+      console.log(removed);
     } else {
       message = "That item is not in your cart.";
     }
