@@ -1,5 +1,7 @@
 var cart = [];
-import random;
+var randomNumber = function randomNumberGenerated(max){
+  
+}
 
 function getCart(item) {
  return cart;
