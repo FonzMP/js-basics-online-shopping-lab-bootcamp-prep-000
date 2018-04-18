@@ -1,6 +1,6 @@
 var cart = [];
-var randomNumber = function randomNumberGenerated(max){
-  
+var randomNumber = function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
 }
 
 function getCart(item) {
