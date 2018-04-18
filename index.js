@@ -81,3 +81,16 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+
+// write your code here
+let message = "";
+for (let i = 0; i < cart.length; i++) {
+  let currentItem = cart[i];
+  if (currentItem === item) {
+    let removed = cart.splice(i, 1);
+    return cart;
+  } else {
+    message = "That item is not in your cart.";
+  }
+}
+return message;
