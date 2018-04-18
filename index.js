@@ -31,7 +31,7 @@ function viewCart() {
     return "Your shopping cart is empty";
   } else {
     for (let i = 0; i < cart.length; i++) {
-      console.log(cart.i.itemName);
+      console.log(cart[i]);
     }
   }
   return sampleString;
