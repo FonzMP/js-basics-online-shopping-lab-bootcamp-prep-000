@@ -19,6 +19,7 @@ function addToCart(item) {
  const randomPrice = getRandomInt();
  const itemAddition = cart[item];
  itemAddition = randomPrice;
+ console.log(cart);
 }
 
 function viewCart() {
