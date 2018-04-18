@@ -76,9 +76,9 @@ function removeFromCart(item) {
         message = "That item is not in your cart.";
         continue
       }
-    }
-    return message;
+    }  
   }
+  return message;
 }
 
 function placeOrder(cardNumber) {
