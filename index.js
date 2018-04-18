@@ -18,7 +18,7 @@ function addToCart(item) {
  // write your code here
  let keyVar = item;
  let price = getRandomInt();
- let keyVar = cart[keyVar] = price;
+ cart[keyVar] = price;
  return `${item} has been added to your cart.`;
 }
 
