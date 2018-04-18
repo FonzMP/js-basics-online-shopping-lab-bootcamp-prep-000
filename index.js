@@ -70,7 +70,6 @@ function removeFromCart(item) {
     let currentItem = cart[i];
     if (currentItem === item) {
       let removed = cart.splice(i, 1);
-      delete removed;
     }
   }
   return cart;
