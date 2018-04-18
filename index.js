@@ -35,7 +35,6 @@ function viewCart() {
       sampleString += " at $";
       sampleString += cart[i].itemPrice;
       sampleString += ", ";
-      console.log(cart[i].itemName);
     }
   }
   return sampleString;
