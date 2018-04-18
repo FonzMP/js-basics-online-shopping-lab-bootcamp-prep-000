@@ -80,4 +80,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
+  if (!cardNumber) {
+    return "Sorry, we can't process your order";
+  }
 }
