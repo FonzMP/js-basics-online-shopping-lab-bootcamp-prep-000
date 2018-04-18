@@ -1,6 +1,7 @@
 var cart = [];
+Math.random();
 
-function getCart() {
+function getCart(item) {
  return cart;
 }
 
