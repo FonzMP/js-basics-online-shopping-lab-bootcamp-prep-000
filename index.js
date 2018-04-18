@@ -75,7 +75,7 @@ function removeFromCart(item) {
       message = "Sorry, that item doesn't exist";
     }
   }
-  return cart;
+  return message;
 }
 
 function placeOrder(cardNumber) {
