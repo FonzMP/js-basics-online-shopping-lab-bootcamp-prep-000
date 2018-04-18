@@ -9,7 +9,7 @@ function getCart(item) {
   keyVar = item;
   price = getRandomInt();
   cart[keyVar] = price;
-  return cart;
+  return `${keyVar} has been added to your cart.`;
 }
 
 function setCart(c) {
