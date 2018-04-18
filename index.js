@@ -31,17 +31,17 @@ function viewCart() {
     return "Your shopping cart is empty.";
   } else {
     for (let i = 0; i < cart.length; i++) {
-      if (parseInt(i + 1) === cart.length) {
-        sampleString += "and " + cart[i].itemName;
-        sampleString += " at $";
-        sampleString += cart[i].itemPrice;
-        sampleString += ".";
-      } else if (cart.length === 1) {
+      if (cart.length === 1) {
         sampleString += cart[i].itemName;
         sampleString += " at $";
         sampleString += cart[i].itemPrice;
         sampleString += ".";
-      } else {
+      } else if (parseInt(i + 1) === cart.length) {
+        sampleString += "and " + cart[i].itemName;
+        sampleString += " at $";
+        sampleString += cart[i].itemPrice;
+        sampleString += ".";
+      } else if else {
         sampleString += cart[i].itemName;
         sampleString += " at $";
         sampleString += cart[i].itemPrice;
