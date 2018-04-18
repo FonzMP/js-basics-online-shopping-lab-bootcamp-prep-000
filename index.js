@@ -29,14 +29,14 @@ function viewCart() {
   sampleString += "In your cart, you have ";
   if (cart.length === 0) {
     return "Your shopping cart is empty.";
+  } else if (cart.length === 1) {
+    sampleString += cart[i].itemName;
+    sampleString += " at $";
+    sampleString += cart[i].itemPrice;
+    sampleString += ".";
   } else {
     for (let i = 0; i < cart.length; i++) {
-      if (cart.length === 1) {
-        sampleString += cart[i].itemName;
-        sampleString += " at $";
-        sampleString += cart[i].itemPrice;
-        sampleString += ".";
-      } else if (parseInt(i + 1) === cart.length) {
+      if (parseInt(i + 1) === cart.length) {
         sampleString += "and " + cart[i].itemName;
         sampleString += " at $";
         sampleString += cart[i].itemPrice;
