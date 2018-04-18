@@ -28,7 +28,7 @@ function viewCart() {
   let sampleString = "";
   sampleString += "In your cart, you have ";
   if (cart.length === 0) {
-    return "Your shopping cart is empty";
+    return "Your shopping cart is empty.";
   } else {
     for (let i = 0; i < cart.length; i++) {
       sampleString += cart[i].itemName;
